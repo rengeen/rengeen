@@ -337,17 +337,56 @@ table {
 
 .browsehappy {
   margin: 0.2em 0;
-  background: #cccccc;
-  color: black;
+  background: #ccc;
+  color: #000;
   padding: 0.2em 0;
 }
 
 /* line 6, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
 
-.test {
-  background-color: red;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, red), color-stop(100%, orange));
-  background-image: -webkit-linear-gradient(bottom, red, orange);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(red), to(orange));
-  background-image: linear-gradient(to top,red, orange);
+.wrapper {
+  width: 850px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+/* line 11, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.header {
+  margin-bottom: 10px;
+}
+
+/* line 14, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.keyvisual {
+  background: #333;
+  margin-bottom: 10px;
+}
+
+/* line 18, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #666;
+  margin-bottom: 10px;
+}
+
+/* line 23, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.sideBar {
+  margin-bottom: 10px;
+}
+
+/* line 25, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.sideBar_content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: 10%;
+  background: #999;
+  padding: 10px;
 }
