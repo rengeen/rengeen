@@ -1,1 +1,2 @@
 memo: deployするとCNAMEが消えるのでgh-pagesブランチにCNAMEファイルを創る必要がある
+deployコマンド: bundle exec middleman deploy
