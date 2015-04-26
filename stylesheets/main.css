@@ -303,7 +303,9 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}/*  ==========================================================================
+}@charset "UTF-8";
+
+/*  ==========================================================================
  *  Vendor Dependencies
  *  ========================================================================== */
 
@@ -344,49 +346,387 @@ table {
 
 /* line 6, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
 
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button,
+input[type=submit],
+input[type=button] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 16, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+html {
+  font-size: 62.5%;
+}
+
+/* line 18, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+body {
+  background: #4f000c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4f000c), to(#800013));
+  line-height: 160%;
+  font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", sans-serif;
+  font-size: 1.6rem;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+/* line 31, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+a:before {
+  content: "» ";
+}
+
+/* line 34, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+ul {
+  list-style: none;
+}
+
+/* line 37, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
 .wrapper {
   width: 850px;
   background: #fff;
   margin: 0 auto;
-}
-
-/* line 11, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
-
-.header {
+  border-radius: 10px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 14, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+/* line 47, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.header {
+  margin-bottom: 0px;
+}
+
+/* line 49, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.header .logo {
+  margin-left: 10px;
+}
+
+/* line 52, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
 
 .keyvisual {
   background: #333;
-  margin-bottom: 10px;
+  margin: 10px 0 20px;
+  border-radius: 10px;
 }
 
-/* line 18, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+/* line 58, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
 
 .body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #666;
   margin-bottom: 10px;
+  padding: 0 10px;
 }
 
-/* line 23, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+/* line 63, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
 
 .sideBar {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   margin-bottom: 10px;
+  padding-right: 10px;
 }
 
-/* line 25, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+/* line 67, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
 
 .sideBar_content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 90%;
-  margin-left: 10%;
-  background: #999;
+}
+
+/* line 70, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.sideBar_block {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ffe5f9;
   padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 76, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px #4f000c solid;
+  text-align: right;
+  padding: 5px 10px;
+}
+
+/* line 81, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.footer a {
+  padding-left: 10px;
+}
+
+/* line 85, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.container {
+  margin-bottom: 35px;
+}
+
+/* line 87, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.container_ttl {
+  border-top: 1px solid #CCC;
+  border-right: 10px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 30px double #CCC;
+  padding: 5px 5px 5px 15px;
+  background: #666;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4447f), to(#e80325));
+  border-radius: 7px;
+  font-size: 140%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* line 134, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.association h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 138, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.association h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* line 142, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.association dt,
+.association dd,
+.association li {
+  font-size: 13px;
+}
+
+/* line 144, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.association dt {
+  margin-top: 10px;
+}
+
+/* line 148, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business {
+  margin-bottom: 40px;
+}
+
+/* line 150, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business_ttl {
+  color: #e80325;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+/* line 155, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business_subttl {
+  font-weight: bold;
+  font-size: 1.8rem;
+  background: #eee;
+  border-left: 5px #e80325 solid;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+/* line 162, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business_catttl {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* line 165, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business_catttl span {
+  font-size: 1.4rem;
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+/* line 169, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business_right {
+  padding-left: 10px;
+}
+
+/* line 171, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business_content {
+  margin-bottom: 10px;
+}
+
+/* line 173, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.business dt {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 10px 0 5px;
+  border-bottom: 1px dotted #ccc;
+}
+
+/* line 178, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.info {
+  margin-bottom: 20px;
+}
+
+/* line 180, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.info_ttl {
+  color: #e80325;
+  font-size: 2rem;
+  border-bottom: 1px #e80325 solid;
+}
+
+/* line 184, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.info dt {
+  margin-top: 15px;
+}
+
+/* line 186, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+.info dd {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  /* line 191, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+  .wrapper {
+    width: auto;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  /* line 195, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+  .body {
+    width: 100%;
+  }
+
+  /* line 197, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+  .sideBar {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  /* line 200, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+  .sideBar_content {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  /* line 203, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
+
+  .footer {
+    padding-right: 20px;
+  }
 }
