@@ -454,6 +454,7 @@ body {
   -webkit-text-size-adjust: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+  -webkit-user-select: none;
 }
 
 /* line 31, /Users/orangemittoo/git/rengeen/source/stylesheets/main.sass */
